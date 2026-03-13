@@ -1,0 +1,30 @@
+# API keys and secrets — NEVER commit these
+.env
+.streamlit/secrets.toml
+
+# ChromaDB persistent vector store (large; rebuild on deployment)
+chroma_db/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Streamlit cache
+.streamlit/cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
