@@ -39,7 +39,7 @@ The app loads and chunks documents from `data/`, builds/loads embeddings into Ch
 ## Deployment Link
 Add your Streamlit Cloud URL here after deployment:
 
-`https://<your-app-name>.streamlit.app`
+`https://kisansahayak.streamlit.app`
 
 ## Local Run
 ```bash
@@ -54,15 +54,3 @@ Create a `.env` file (or configure Streamlit Secrets) with:
 - `GROQ_API_KEY` (optional)
 - `SERPER_API_KEY` (optional)
 
-## Streamlit Cloud Deployment Steps
-1. Push this project to GitHub.
-2. Open Streamlit Cloud and click **New app**.
-3. Select your GitHub repo, branch, and set `app.py` as entry file.
-4. Add secrets in Streamlit Cloud (`Settings -> Secrets`) for required API keys.
-5. Deploy the app.
-
-### Important Note on Knowledge Base
-If `chroma_db` is not committed to the repo, Streamlit Cloud may require rebuilding the knowledge base after restarts/redeployments.
-To avoid repeated rebuilds:
-- Build the index locally first.
-- Include `chroma_db` in the repository (if size is acceptable).
