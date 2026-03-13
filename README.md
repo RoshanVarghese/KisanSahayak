@@ -39,7 +39,7 @@ The app loads and chunks documents from `data/`, builds/loads embeddings into Ch
 ## Deployment Link
 Add your Streamlit Cloud URL here after deployment:
 
-`https://kisansahayak.streamlit.app`
+`[https://kisansahayak.streamlit.app](https://kisansahayak.streamlit.app/)`
 
 ## Local Run
 ```bash
