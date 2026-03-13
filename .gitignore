@@ -2,9 +2,6 @@
 .env
 .streamlit/secrets.toml
 
-# ChromaDB persistent vector store (large; rebuild on deployment)
-chroma_db/
-
 # Python
 __pycache__/
 *.py[cod]

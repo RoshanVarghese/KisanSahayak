@@ -51,7 +51,6 @@ def _strip_sources_section(text: str) -> str:
         answer_text = answer_text[:-3].rstrip()
     return answer_text
 
-
 def _build_system_prompt(
     rag_context: str,
     web_context: str,
